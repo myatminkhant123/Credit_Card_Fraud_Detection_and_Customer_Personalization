@@ -13,24 +13,17 @@ st.set_page_config(page_title="FraudHunter Pro", page_icon="🛡️", layout="wi
 # Custom CSS for styling
 st.markdown("""
 <style>
-    .main {
-        background-color: #f8f9fa;
-    }
     .stButton>button {
-        color: white;
-        background-color: #0d6efd;
         border-radius: 5px;
     }
     .stTextInput>div>div>input {
         border-radius: 5px;
     }
-    h1, h2, h3 {
-        color: #212529;
-    }
     .card {
         padding: 20px;
         border-radius: 10px;
-        background-color: white;
+        background-color: rgba(128, 128, 128, 0.1);
+        border: 1px solid rgba(128, 128, 128, 0.2);
         box-shadow: 0 4px 6px rgba(0,0,0,0.1);
         margin-bottom: 20px;
     }
