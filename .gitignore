@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.env
+.DS_Store
+.streamlit/
+data/
+venv/
+env/
+# Models can be ignored if >100MB, but we'll include the isolation forest model
+# models/
